@@ -5,3 +5,10 @@ allImage.forEach((e) => {
         alert('The play boy is here')
     })
 })
+
+
+
+window.addEventListener('load', () => {
+    let audio = document.querySelector('audio');
+   audio.play();
+})
